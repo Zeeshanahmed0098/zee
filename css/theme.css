@@ -86,6 +86,16 @@ span {
     background-color: var(--gray1);
 }
 
+.lead-text-btn a {
+    background-color: var(--green);
+    border: none;
+    text-decoration: none;
+    color: var(--black);
+    padding: 10px 20px;
+}
+
+
+
 .form-check {
     margin-right: 10px;
 }
@@ -105,10 +115,36 @@ span {
 
 .lead-text {
     text-align: center;
+
 }
 
 .lead-text h6 {
     color: var(--green);
+
+}
+
+.lead-text h1 {
+    padding-bottom: 20px;
+}
+
+.lead-text-btn-wrapper {
+    justify-content: center;
+}
+
+.lead-text-btn-rent a {
+    text-decoration: none;
+    background-color: var(--gray2);
+    border: none;
+    padding: 10px 25px;
+    color: var(--black);
+}
+
+.lead-text-btn-sell a {
+    text-decoration: none;
+    background-color: var(--green);
+    border: none;
+    padding: 10px 25px;
+    color: var(--black);
 }
 
 .form-select {
@@ -118,6 +154,23 @@ span {
 
 .featured-card {
     position: relative;
+}
+
+.featured-card-btns {
+    position: absolute;
+    padding-left: 15px;
+    top: 20px;
+}
+
+.featured-card-btns a {
+    text-decoration: none;
+    color: var(--black);
+    background-color: var(--green);
+    padding: 5px 10px;
+}
+
+.featured-card-btns a:first-child {
+    background-color: var(--gray2);
 }
 
 .featured-card figcaption {
@@ -135,48 +188,116 @@ span {
     width: 70px;
     border-radius: 50%;
 }
-.featured-card:after{content: '';
-display: block;
-position: absolute;
-width: 100%;
-height: 100%;
-background: rgb(0,0,0);
-background: linear-gradient(0deg, rgba(0,0,0,1) 5%, rgba(12,12,12,0) 99%, rgba(255,255,255,1) 100%);
-top: 0;}
 
-.services-wrapper{background-color: var(--gray2);
-text-align: center;}
-.service span{font-size: 100px;}
+.featured-card:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 5%, rgba(12, 12, 12, 0) 99%, rgba(255, 255, 255, 1) 100%);
+    top: 0;
+}
 
-.service{background-color: var(--green);
+figcaption .fav {
+    padding-right: 5px;
+}
 
-text-align: center;
-color: var(--white);
-padding: 50px 10px;
-position: relative;}
-.service-two{
-    background-color: var(--blue);
-   
+.services-wrapper {
+    background-color: var(--gray2);
+    text-align: center;
+}
+
+.service span {
+    font-size: 100px;
+}
+
+.service {
+    background-color: var(--green);
+
     text-align: center;
     color: var(--white);
-    padding: 50px 10px;}
-.service-two span{font-size: 100px;}
-    
-.box-1{position: absolute;
-opacity: 0.2;
-top: 20px;
-left: 60px;}
+    padding: 50px 10px;
+    position: relative;
+}
 
+.service-two {
+    background-color: var(--blue);
 
+    text-align: center;
+    color: var(--white);
+    padding: 50px 10px;
+}
 
+.service-two span {
+    font-size: 100px;
+}
+
+.box-1 {
+    position: absolute;
+    opacity: 0.2;
+    top: 20px;
+    left: 60px;
+}
+
+.card-title {
+    padding-bottom: 5px;
+}
+
+.card-location-wrapper,
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.card-location-text span {
+    color: var(--green);
+}
+
+.card-location-btn a {
+    background-color: var(--green);
+    padding: 3px 7px;
+    color: var(--white);
+}
+
+.card-body h6 {
+    color: var(--green);
+}
+
+.house-info ul li {
+    list-style: none;
+
+}
+
+.house-info ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    color: gray;
+}
+.rating-wrapper{background-color: var(--blue);
+text-align: center;
+padding-top: 30px;}
+
+.rating-text{color: var(--white);}
+.rating-text h6{color: var(--green);}
+.rating-box {background-color: green;
+height: 300px;}
+.rating-box:nth-child(2){background-color: #19284b;}
 /* main-nav-bar */
 
 
 /* GC */
 
-.sac-space{padding: 40px 0;}
-@media (max-width: 575.98px) { 
-    .service-two{margin: 10px 0;}
+.sac-space {
+    padding: 40px 0;
+}
+
+@media (max-width: 575.98px) {
+    .service-two {
+        margin: 10px 0;
+    }
 }
 
 @media (max-width: 991.98px) {
